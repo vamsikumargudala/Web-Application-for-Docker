@@ -7,8 +7,8 @@ print()
 import cgi
 import subprocess 
 
-a = ["vamsikumar_ug"]
-b = ["Vamsi1@"]
+a = [""]
+b = [""]
 
 form = cgi.FieldStorage()
 user  = form.getvalue('user')
